@@ -1,0 +1,44 @@
+[
+  {
+    "ContainingType": "BackendTutor.Controllers.HomeController",
+    "Method": "Hello",
+    "RelativePath": "",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendTutor.Controllers.CurrencyConvertController",
+    "Method": "ConvertCurrencies",
+    "RelativePath": "api/currency",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "BackendTutor.Models.ConvertCurrencyRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendTutor.Controllers.CurrencyConvertController",
+    "Method": "GetAll",
+    "RelativePath": "api/currency/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
